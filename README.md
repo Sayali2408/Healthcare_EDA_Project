@@ -100,9 +100,3 @@ requirements.txt
 - SQL for Data Extraction & Queries
 - Power BI for Interactive Dashboards
 - ReportLab for Automated PDF Report Generation
-
----
-
-## Author
-
-**Sayali Tachale**
