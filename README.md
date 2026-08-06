@@ -5,46 +5,91 @@ This project analyzes healthcare patient data using Python, SQL, and Power BI to
 
 ---
 
-## Technologies
+## Dataset
+
+**Dataset:** Healthcare Patient Dataset
+
+**Source:** Kaggle
+
+**Records:** ~55,000 Patient Records
+
+---
+
+### Features
+
+- Name
+- Age
+- Gender
+- Blood Type
+- Medical Condition
+- Date of Admission
+- Doctor
+- Hospital
+- Insurance Provider
+- Billing Amount
+- Room Number
+- Admission Type
+- Discharge Date
+- Medication
+- Test Results
+
+---
+
+## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- SQL
+- Seaborn
+- MySQL
 - Power BI
 - ReportLab
+- Jupyter Notebook / VS Code
 
 ---
 
-## Features
+## Project Workflow
 
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
-- Patient Demographic Analysis
-- Disease Trend Analysis
-- Treatment Cost Analysis
-- Hospital Stay Analysis
-- Department-wise Analysis
-- Recovery Analysis
-- Business Insights
+- SQL Analysis
 - Data Visualization
+- Business Insights
 - PDF Report Generation
-- SQL Queries
 - Interactive Power BI Dashboard
 
 ---
 
-## KPIs
+## Project Structure
 
-- Total Patients
-- Total Admissions
-- Average Age
-- Average Treatment Cost
-- Average Hospital Stay
-- Recovery Rate
-- Male Patients
-- Female Patients
+```
+Healthcare_Patient_Analysis
+│
+├── data/
+│   └── healthcare_cleaned.csv
+│
+├── images/
+│
+├── reports/
+│   └── Healthcare_Report.pdf
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── analysis.py
+│   ├── visualization.py
+│   └── report.py
+│
+├── sql/
+│   └── healthcare_queries.sql
+│
+├── powerbi/
+│   └── Healthcare_Dashboard.pbix
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -59,44 +104,19 @@ This project analyzes healthcare patient data using Python, SQL, and Power BI to
 
 ---
 
-## Project Structure
-
-```
-data/
-
-charts/
-
-reports/
-
-sql/
-
-src/
-
-main.py
-
-README.md
-
-requirements.txt
-```
-
----
-
-## Insights Generated
-
-- Distribution of patients by gender and age group
-- Most common medical conditions
-- Monthly patient admissions
-- Department-wise patient distribution
-- Average treatment cost by disease
-- Average hospital stay
-- Recovery rate analysis
-- Hospital performance comparison
-
----
-
 ## Tools Used
 
-- Python for Data Cleaning & Analysis
-- SQL for Data Extraction & Queries
-- Power BI for Interactive Dashboards
-- ReportLab for Automated PDF Report Generation
+- **Python** – Data Cleaning, EDA & Analysis
+- **MySQL** – SQL Queries & Data Analysis
+- **Power BI** – Interactive Dashboard Creation
+- **Matplotlib & Seaborn** – Data Visualization
+- **ReportLab** – Automated PDF Report Generation
+
+---
+
+## Future Enhancements
+
+- Predictive Disease Analysis using Machine Learning
+- Patient Readmission Prediction
+- Interactive Web Dashboard using Streamlit
+- Automated Data Pipeline
