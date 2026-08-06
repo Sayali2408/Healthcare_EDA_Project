@@ -15,7 +15,7 @@ This project analyzes healthcare patient data using Python, SQL, and Power BI to
 
 ---
 
-### Features
+## Features
 
 - Name
 - Age
